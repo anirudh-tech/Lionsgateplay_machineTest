@@ -4,7 +4,7 @@ import useEmblaCarousel from 'embla-carousel-react'
 import { Play } from "lucide-react"
 
 const PosterComponent = ({title, movies}: any) => {
-    const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true })
+    const [emblaRef,_] = useEmblaCarousel({ loop: true })
     const [mouseHover, setMouseHover] = useState({ index: "", hover: false })
     const hoverRef = useRef(null)
 

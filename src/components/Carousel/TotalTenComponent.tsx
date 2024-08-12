@@ -16,7 +16,7 @@ import image10 from '../../assets/10.png';
 const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10];
 const TotalTenComponent = ({ title, movies }: any) => {
 
-    const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true })
+    const [emblaRef, _] = useEmblaCarousel({ loop: true })
     const [mouseHover, setMouseHover] = useState({ index: "", hover: false })
 
     const handleMouseEnter = (index: string) => {

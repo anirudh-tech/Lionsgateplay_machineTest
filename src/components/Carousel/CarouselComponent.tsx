@@ -5,7 +5,7 @@ import { useRef, useState } from "react";
 import { BsCameraReels } from "react-icons/bs";
 
 const CarouselComponent = ({ movies }: any) => {
-    const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true })
+    const [emblaRef,_] = useEmblaCarousel({ loop: true })
     const [mouseHover, setMouseHover] = useState({ index: "", hover: false })
     const nextRef = useRef<HTMLButtonElement>(null)
     
