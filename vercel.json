@@ -1,0 +1,3 @@
+{
+  "rewrites": [{ "source": "/(.*)", "destination": "https://lionsgateplay-machine-test-pu1b.vercel.app" }]
+}
